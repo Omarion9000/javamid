@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.midtermexam.HelloController">
+   <children>
+      <Label layoutX="87.0" layoutY="63.0" text="Patient ID">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="436.0" layoutY="59.0" mnemonicParsing="false" text="Search" />
+      <CheckBox layoutX="493.0" layoutY="229.0" mnemonicParsing="false" text="Yes" />
+      <Label layoutX="402.0" layoutY="229.0" text="Ward Required?" />
+      <Label layoutX="61.0" layoutY="220.0" text="Symptons" />
+      <Label layoutX="61.0" layoutY="259.0" text="Diagnosis" />
+      <Label layoutX="55.0" layoutY="296.0" text="Medecines" />
+      <TableView layoutX="73.0" layoutY="100.0" prefHeight="46.0" prefWidth="453.0">
+        <columns>
+          <TableColumn prefWidth="124.0" text="Title 1" />
+          <TableColumn prefWidth="103.99993896484375" text="Title 2" />
+            <TableColumn minWidth="7.199951171875" prefWidth="108.800048828125" text="Title 3" />
+            <TableColumn minWidth="0.79998779296875" prefWidth="100.7999267578125" text="Title 4" />
+        </columns>
+      </TableView>
+      <TextField layoutX="116.0" layoutY="217.0" />
+      <TextField layoutX="116.0" layoutY="255.0" />
+      <TextField layoutX="116.0" layoutY="292.0" />
+      <TextField layoutX="150.0" layoutY="59.0" />
+      <Button layoutX="67.0" layoutY="361.0" mnemonicParsing="false" text="Save" />
+      <Button layoutX="462.0" layoutY="361.0" mnemonicParsing="false" text="Close" />
+   </children>
+</AnchorPane>
